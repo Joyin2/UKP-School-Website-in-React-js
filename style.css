@@ -269,13 +269,13 @@
     background-image: url('1.jpg');
     background-position: center;
     background-size: cover;
-    box-shadow: 1px 2px 10px rgb(132, 0, 255);
+    box-shadow: 1px 2px 10px rgb(7, 0, 14);
     animation: slider 16s infinite linear;
     border-radius: 15px;
 }
 
 .slides:hover {
-    box-shadow: 1px 2px 10px rgb(54, 0, 105);
+    box-shadow: 1px 2px 10px 10px rgb(7, 0, 14);
 }
 
 @keyframes slider {
