@@ -1,0 +1,496 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header{
+    max-width: 100vh;
+} */
+
+.uppercontact {
+    display: flex;
+    min-height: 50px;
+    width: 100%;
+    background-color: black;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    color: white;
+}
+
+.phonenumber {
+    min-width: 30%;
+    text-align: left;
+    flex-direction: column;
+}
+
+.phonenumber a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.phonenumber a img {
+    height: 20px;
+    width: auto;
+}
+
+.whatsapp {
+    min-width: 30%;
+    flex-direction: column;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+.whatsapp a img {
+    height: 20px;
+    width: auto;
+}
+
+.email {
+    min-width: 30%;
+    flex-direction: column;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+}
+
+.schoolname {
+    display: block;
+    color: white;
+    background-color: black;
+    min-height: 60px;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcontainer {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    max-width: 100vw;
+    height: 65px;
+}
+
+.logo {
+    display: flex;
+    height: 65px;
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.logo img {
+    /* border: 2px solid red; */
+    border-radius: 200px;
+    height: 63px;
+    width: 60px;
+}
+
+.navbar {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.navbar li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+/* .background {
+    background: rgba(0, 0, 0, 0.863) url('photos/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+
+.background-nav {
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    /* background-color: rgb(33, 90, 175); */
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* z-index: 1; */
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    color: white;
+    border: 2px solid white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 4px;
+    /* border-width: ; */
+    border-radius: 8px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover {
+    /* background-color: rgb(33, 90, 175); */
+    color: black;
+}
+
+#home {
+    max-width: 100vw;
+}
+
+.margin {
+    margin: 0;
+}
+
+.parallax {
+    background: rgba(0, 0, 0, 0.911) url('backgroundfixed.jpg') repeat fixed 100%;
+    background-size: cover;
+    width: 100%;
+}
+
+.parallax-inner {
+    /* padding-top: 30%; */
+    /* padding-bottom: 30%; */
+    color: white;
+}
+
+.parallax-inner p {
+    text-align: center;
+    align-items: center;
+    color: rgb(200, 255, 205);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box-main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    max-width: 100vw;
+    margin: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 80px; */
+}
+
+.slides {
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+    margin: auto;
+    width: 75%;
+    height: 300px;
+    background-image: url('1.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 2px 10px rgb(132, 0, 255);
+    animation: slider 16s infinite linear;
+    border-radius: 15px;
+}
+
+.slides:hover {
+    box-shadow: 1px 2px 10px rgb(54, 0, 105);
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('1.jpg');
+    }
+    20% {
+        background-image: url('2.jpg');
+    }
+    40% {
+        background-image: url('3.jpg');
+    }
+    60% {
+        background-image: url('4.jpg');
+    }
+    80% {
+        background-image: url('5.jpg');
+    }
+}
+
+#welcome-screen {
+    background-color: rgba(0, 0, 0, 0.863);
+    display: flex;
+    max-width: 100vw;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+.advertise {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.welcome {
+    width: 60%;
+    margin-left: 50px;
+}
+
+footer {
+    display: flex;
+    max-width: 100vw;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-footer {
+    width: 70%;
+}
+
+.right-footer {
+    width: 30%;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    /* margin: auto; */
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px) {
+    /* .schoolname {
+        font-size: 70px;
+    } */
+    /* .uppercontact {
+        display: none;
+    } */
+    .logoinnav {
+        /* display: none; */
+        position: absolute;
+        left: 5%;
+    }
+    .schoolname {
+        display: none;
+    }
+    .navcontainer {
+        flex-direction: column;
+        max-width: 100vw;
+        height: 370px;
+        justify-content: center;
+        margin: auto;
+        transition: all 0.0001s ease-out;
+    }
+    .navbar {
+        justify-content: center;
+        margin: auto;
+        padding: 5px;
+        flex-direction: column;
+        max-width: 100vw;
+    }
+    .navbar li {
+        padding: 10px;
+    }
+    .navbar li a {
+        padding: 7px 15px;
+        border-radius: 8px;
+        border: 2px solid white;
+    }
+    .navbar li a:hover {
+        padding: 7px 15px;
+        border-radius: 8px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    /* #home{
+        width: 100vh;
+    } */
+    .box-main {
+        /* max-width: 100vh; */
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .slides {
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 200px; */
+        /* margin-right: 200px; */
+        margin-top: 0px;
+        width: 75%;
+        height: 300px;
+    }
+    .first-half {
+        /* max-width: 100vw;
+         */
+        width: auto;
+        /* padding: 0px 0px; */
+        margin: auto;
+        text-align: center;
+        padding: 0px 0px;
+    }
+    .second-half {
+        width: auto;
+        margin: auto;
+        padding: 0px 0px;
+    }
+    .second-half img {
+        border: 2px solid white;
+    }
+    #welcome-screen {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        /* background-color: rgba(0, 0, 0, 0.863);
+        display: flex;
+        max-width: 100vw;
+        justify-content: center;
+        margin: auto;
+        
+        color: white; */
+    }
+    .advertise {
+        width: 100%;
+        /* margin-right: 50px; */
+    }
+    .welcome {
+        width: 100%;
+        margin: auto;
+    }
+    footer {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .left-footer {
+        width: 100%;
+    }
+    .right-footer {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 65px;
+    }
+    .v-class-resp {
+        /* opacity: 0; */
+        display: none;
+    }
+}
+
+
+/* .first-half {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    
+    padding: 220px 10px;
+  
+}
+
+.second-half {
+    
+    width: 40%;
+
+    padding: 150px 60px;
+} */
+
+
+/* .second-half img {
+    margin-right: 20px;
+    border-radius: 900px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+} */
