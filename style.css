@@ -444,9 +444,11 @@ footer {
     }
     .advertise {
         width: 100%;
+        padding-top: 40px; 
         /* margin-right: 50px; */
     }
     .welcome {
+        padding-top: 40px; 
         width: 100%;
         margin: auto;
     }
