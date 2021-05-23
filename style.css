@@ -239,6 +239,7 @@
 }
 
 .parallax-inner p {
+    display: none;
     text-align: center;
     align-items: center;
     color: rgb(200, 255, 205);
@@ -408,6 +409,9 @@ footer {
         margin-top: 0px;
         width: 75%;
         height: 200px;
+    }
+    .parallax-inner p {
+        display: block;
     }
     .first-half {
         /* max-width: 100vw;
