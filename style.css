@@ -434,6 +434,7 @@ footer {
         flex-direction: column;
         width: 100%;
         margin: auto;
+        
         /* background-color: rgba(0, 0, 0, 0.863);
         display: flex;
         max-width: 100vw;
@@ -443,6 +444,8 @@ footer {
         color: white; */
     }
     .advertise {
+        text-align: center;
+        margin:auto;
         width: 80%;
         padding-top: 40px; 
         
@@ -450,7 +453,7 @@ footer {
     }
     .welcome {
         padding-top: 40px; 
-        
+        text-align: center;
         width: 80%;
         margin: auto;
     }
