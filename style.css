@@ -311,10 +311,20 @@
     margin-right: 50px;
 }
 
+.advertise h1 {
+    text-align: center;
+}
+
+
 .welcome {
     width: 60%;
     margin-left: 50px;
 }
+
+.welcome h1 {
+    text-align: center;
+}
+
 
 
 /* from upload */
