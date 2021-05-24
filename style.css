@@ -230,6 +230,7 @@
     background: rgba(0, 0, 0, 0.911) url('backgroundfixed.jpg') repeat fixed 100%;
     background-size: cover;
     width: 100%;
+    height: auto;
 }
 
 .parallax-inner {
@@ -315,7 +316,83 @@
     margin-left: 50px;
 }
 
+
+/* from upload */
+
 footer {
+    color: white;
+}
+
+.socialmedialinkfooter {
+    height: 90px;
+    display: flex;
+}
+
+.contact {
+    color: rgb(255, 248, 188);
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.contact ul {
+    display: flex;
+    list-style: none;
+}
+
+.contact ul li {
+    color: white;
+    padding: 10px;
+}
+
+.contact ul li img {
+    width: 20px;
+    height: auto;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact ul li a img {
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+}
+
+.socialmedia {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.socialmedia ul {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    list-style: none;
+}
+
+.socialmedia ul li {
+    display: flex;
+    padding: 10px;
+}
+
+.socialmedia ul li a img {
+    height: 20px;
+    width: auto;
+}
+
+.reservefooter {
     display: flex;
     max-width: 100vw;
     color: white;
@@ -324,6 +401,9 @@ footer {
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* to upload */
 
 .left-footer {
     width: 70%;
@@ -434,7 +514,6 @@ footer {
         flex-direction: column;
         width: 100%;
         margin: auto;
-        
         /* background-color: rgba(0, 0, 0, 0.863);
         display: flex;
         max-width: 100vw;
@@ -445,19 +524,25 @@ footer {
     }
     .advertise {
         text-align: center;
-        margin:auto;
+        margin: auto;
         width: 80%;
-        padding-top: 40px; 
-        
+        padding-top: 40px;
         /* margin-right: 50px; */
     }
     .welcome {
-        padding-top: 40px; 
+        padding-top: 40px;
         text-align: center;
         width: 80%;
         margin: auto;
     }
-    footer {
+    .socialmedialinkfooter {
+        height: auto;
+        flex-direction: column;
+    }
+    .contact ul {
+        flex-direction: column;
+    }
+    .reservefooter {
         flex-direction: column;
         max-width: 100%;
     }
