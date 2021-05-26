@@ -195,7 +195,7 @@ body {
 }
 
 .bg1 {
-    background: rgba(3, 3, 3, 0.863) url('backgroundf.jpg');
+    background: rgba(3, 3, 3, 0.863);
     background-size: cover;
     background-blend-mode: darken;
 }
