@@ -17,8 +17,11 @@ const Header = () => {
             <li>Home</li>
             <li>Faculty</li>
             <li>Gallery</li>
+            <li>Admission</li>
             <li>Notice</li>
             <li>Mission</li>
+            <li>Rules</li>
+            <li>About</li>
           </ul>
         </div>
         <button className="button n-contact">Contact</button>

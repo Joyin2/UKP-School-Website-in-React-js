@@ -20,22 +20,25 @@
   .n-right {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     .n-list {
       display: flex;
       align-items: center;
       ul {
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         li {
           list-style: none;
           color: var(--orange);
-          font-size: 16px;
+          font-size: 18px;
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
     .n-contact {
-      font-size: 16px;
+      font-size: 18px;
       width: 8rem;
     }
     .n-login {
