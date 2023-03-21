@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+.Intro {
+  @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-around;
+  position: relative;
+  transition: 0.5s;
+  // font-family: serif;
+  .video-bg {
+    width: 100%;
+    // padding: -0.3rem -3.5rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    background-color: black;
+  }
+  .bg-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .home-text {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      padding: 1rem 5rem;
+      border-radius: 5rem;
+      background: var(--black);
+      box-shadow: 0px 20px 24px 3px rgba(0, 0, 0, 0.563);
+      font-family: "Merriweather", serif;
+      font-size: 38px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 34px;
+      .typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: 
+    typing 1s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+    }
+    button {
+      position: absolute;
+      bottom: 8rem;
+      font-size: 17px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      
+      justify-content: center;
+      
+      span {
+        
+        IoMdPower{
+          &:hover{
+          color: var(--orange);
+        }
+        }
+      }
+    }
+  }
+}
