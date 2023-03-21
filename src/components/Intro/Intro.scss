@@ -50,38 +50,32 @@
     }
     h2 {
       font-size: 34px;
-      .typed-out{
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: 
-    typing 1s forwards;
-  font-size: 1.6rem;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+      color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     }
-    button {
+    .start {
       position: absolute;
-      bottom: 8rem;
+      bottom: 7rem;
       font-size: 17px;
       font-weight: 600;
       display: flex;
       align-items: center;
-      
       justify-content: center;
-      
-      span {
-        
-        IoMdPower{
-          &:hover{
-          color: var(--orange);
-        }
-        }
+      img{
+        height: 110px;
+    
+      &:hover{
+        cursor: pointer;
       }
+      }
+     
+      // span {
+      //   IoMdPower {
+      //     &:hover {
+      //       color: var(--orange);
+      //     }
+      //   }
+      // }
     }
   }
 }

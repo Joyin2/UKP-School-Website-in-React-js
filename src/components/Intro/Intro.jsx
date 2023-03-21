@@ -2,11 +2,8 @@ import React from "react";
 import "./Intro.scss";
 import Header from "../Header/Header";
 import BgVideo from "../../videos/student.mp4";
-import Explore from "../../img/power-off-solid.svg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IoMdPower } from "react-icons/io";
-import { faBold } from "@fortawesome/free-solid-svg-icons";
-
+import Start from "../../img/start.png"
+import { motion } from "framer-motion";
 
 
 const Intro = () => {
@@ -20,20 +17,15 @@ const Intro = () => {
       <div className="home-text">
         <h1>Universal Knowledge Park School, Silchar</h1>
         <h2>
-          <span className="typed-out">Nurturing Minds,</span> <span>Nurturing Talents</span>
+          Nurturing Minds, Nurturing Talents
         </h2>
-        <button className="button">
-          Explore
-          <span>
-            {/* <FontAwesomeIcon
-              icon="fa-solid fa-power-off"
-              beat
-              style={{ color: "#ffffff" }}
-            /> */}
-            {/* <img src={Explore} alt="" /> */}
-            <IoMdPower size={25} fontWeight={faBold} />
-          </span>
-        </button>
+        <motion.div
+          className="start"
+          whileHover={{ scale: 1.2, rotate: 360 }}
+          whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
+        >
+          <img src={Start} alt="" />
+        </motion.div>
       </div>
     </div>
   );
