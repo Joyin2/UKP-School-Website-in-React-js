@@ -10,10 +10,13 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-
+*{
+  box-sizing: border-box;
+}
 .App{
   overflow: hidden;
   color: var(--black);    
+  box-sizing: border-box;
 }
 
 .button{

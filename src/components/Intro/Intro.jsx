@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 import BgVideo from "../../videos/student.mp4";
 import Start from "../../img/start.png"
 import { motion } from "framer-motion";
-
+import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
@@ -16,15 +16,15 @@ const Intro = () => {
       </div>
       <div className="home-text">
         <h1>Universal Knowledge Park School, Silchar</h1>
-        <h2>
-          Nurturing Minds, Nurturing Talents
-        </h2>
+        <h2>Nurturing Minds, Nurturing Talents</h2>
         <motion.div
           className="start"
           whileHover={{ scale: 1.2, rotate: 360 }}
           whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
         >
-          <img src={Start} alt="" />
+          <Link spy={true} to="best-education" smooth={true}>
+            <img src={Start} alt="" />
+          </Link>
         </motion.div>
       </div>
     </div>
