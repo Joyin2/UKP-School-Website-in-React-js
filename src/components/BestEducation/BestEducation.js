@@ -64,9 +64,7 @@ const BestEducation = () => {
       </div>
       <div className="cards-details">
         <span>We Provide</span>
-
         <span>Quality Education</span>
-
         <span>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
           facilis Lorem ipsum dolor sit. Lorem, ipsum dolor. 
