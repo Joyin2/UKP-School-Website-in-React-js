@@ -59,23 +59,25 @@
     // background-color: cadetblue;
 
     span:nth-of-type(1) {
-      h1 {
-        color: var(--orange);
-        font-size: 38px;
-      }
+      color: var(--orange);
+      font-size: 55px;
+      font-weight: 900;
     }
     span:nth-of-type(2) {
-      h1 {
-        color: var(--black);
-        font-size: 38px;
-      }
+      color: var(--black);
+      font-size: 55px;
+      font-weight: 900;
     }
 
     span:nth-of-type(3) {
       position: relative;
       display: flex;
+      margin-top: 1rem;
       align-items: center;
-      text-align: center;
+      // text-align: center;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
       justify-content: center;
       padding: 0px 6rem 0px 6rem;
       color: var(--gray);

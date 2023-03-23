@@ -63,17 +63,13 @@ const BestEducation = () => {
         {/* <div className="blur t-blur2" style={{ background: "skyblue" }}></div> */}
       </div>
       <div className="cards-details">
-        <span>
-          <h1>We Provide</h1>
-        </span>
+        <span>We Provide</span>
 
-        <span>
-          <h1>Quality Education</h1>
-        </span>
+        <span>Quality Education</span>
 
         <span>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-          facilis pariatur a b c de laborum officiis
+          facilis Lorem ipsum dolor sit. Lorem, ipsum dolor. 
         </span>
       </div>
     </div>
