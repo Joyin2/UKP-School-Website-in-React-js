@@ -1,0 +1,92 @@
+.About {
+  position: relative;
+  display: flex;
+  width: 100%;
+  // height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 0, 0.672);
+  img {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+  }
+  .container {
+    padding: 0.3rem 3.5rem;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    .avatar {
+      position: relative;
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      .main {
+        width: 270px;
+        height: 270px;
+        border: 8px dashed rgb(233, 157, 204);
+        // border: 8px dashed var(--purple);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation: spin 15s linear infinite;
+        @keyframes spin {
+          100% {
+            transform: rotateZ(360deg);
+          }
+        }
+      }
+      img {
+        height: 270px;
+        width: fit-content;
+        border-radius: 0px 0px 270px 270px;
+        margin-bottom: 5rem;
+      }
+    }
+    .experts {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      .e-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        gap: .2rem;
+        :nth-child(1){
+          font-size: 30px;
+          font-weight: 700;
+          :nth-child(1){
+            color: var(--orange);
+          }
+        }
+        :nth-child(2){
+          font-size: 30px;
+          font-weight: 700;
+        }
+        :nth-child(3){
+          font-size: 13px;
+          padding-top: .6rem;
+          padding-bottom: .6rem;
+          padding-right: .6rem;
+        }
+        :nth-child(4){
+          width: 10rem;
+        }
+      }
+    }
+  }
+}
